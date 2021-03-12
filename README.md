@@ -4,6 +4,8 @@
 
 # CVE-2014-9330
 
+bmp2tiff(画像変換アプリ）の脆弱性をAFLでファジングし、bmp2tiffをクラッシュさせる57個の画像を生成して入力してみる。
+
 <pre>
 # wget http://download.osgeo.org/libtiff/old/tiff-3.8.2.tar.gz
 # tar xvzf tiff-3.8.2.tar.gz
