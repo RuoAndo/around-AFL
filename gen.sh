@@ -4,7 +4,8 @@ while read line; do
     cp ./crashes/$line ${COUNT}.bmp
 
     echo "["$COUNT"]"
-    ./bmp2tiff ${COUNT}.bmp out.tiff
+    comstr="./bmp2tiff ${COUNT}.bmp out.tiff"
+    eval $comstr
      
     rm -rf ${COUNT}.bmp 
     COUNT=`expr $COUNT + 1`
