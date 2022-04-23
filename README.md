@@ -15,7 +15,7 @@ bmp2tiff(画像変換アプリ）の脆弱性をAFLでファジングし、bmp2t
 # ./configure --disable-shared
 # make
 # ls ./tools
-# cp /tools/bmp2tiff .
+# cp ./tools/bmp2tiff .
 </pre>
 
 <pre>
